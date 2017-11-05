@@ -24,7 +24,7 @@ document.getElementById("sayButton").onclick = function(){
 
 document.getElementById("searchButton").onclick = function(){
 
-	var postId = $('#postId').val();
+	var postId = '*'
 
 
 	$.ajax({
